@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class = "main">
+  <div class ="box" *ngFor = "let box of boxs; let i = index">
+    <div class = "div">
+      <div class ="block" *ngFor = "let item of box; let j = index" (click)="changeColor(i,j)" [style.backgroundColor]="boxs[i][j]"></div>
+    </div>
+  </div>
+</div>

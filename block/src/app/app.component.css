@@ -1,0 +1,30 @@
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+
+}
+
+.box{
+
+}
+.div{
+  display:table-cell;
+  vertical-align: middle;
+  text-align: center;
+  hight:50px;
+  width:1000px;
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  display:inline-block;
+  Border-width: 10px;
+}
